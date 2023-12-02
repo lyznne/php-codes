@@ -1,0 +1,67 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(61, 158, 158);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+.details{
+    background: rgb(75, 68, 68);
+    padding: 1rem;
+    border: 1px solid red;
+    border-radius: 20px;
+
+
+}
+
+.details h3{
+    color: white;
+    padding-top: 1rem;
+}
+
+.details input{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    align-items: flex-start;
+
+}
+
+.marks button{
+    padding: .5rem 1.5rem;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    background: rgb(90, 90, 230);
+}
+
+.list{
+    padding-top: 1rem;
+
+}
+.list table th{
+    /* border: 2px solid white; */
+    padding-left: 1rem;
+    /* margin: 25px; */
+    background: yellowgreen;
+
+}
+
+.table{
+    background-color: gainsboro;
+    padding: 2rem;
+}
+
+.table.grading{
+    align-items: center;
+}

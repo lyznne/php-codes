@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100dvh;
+    background: lavender;
+}
+
+
+.aside,
+aside {
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    color: #f7f7fd;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    background: #000b14;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    color: #f7f7fd;
+}
+
+.prime-numbers {
+    border-top: 1px solid #e6e6fa6b;
+}
+
+.prime-numbers form .input-fields {
+    display: flex;
+    align-items: center;
+}
+
+.prime-numbers form input {
+    margin-right: 1px;
+    width: 180px !important;
+}
+
+.container .form {
+    margin-right: 10px;
+    border-right: 2px soldi lavender;
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container form input {
+    border: .5px solid rgba(0, 255, 128, 0.623);
+    outline: 3px solid #00ff8036;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: #e6e6fa13;
+    padding: .5rem 1rem;
+    width: 100%;
+    font-size: 19px;
+    color: white;
+
+}
+
+.container form button {
+    padding: .5rem 1.3rem;
+    border: .5px solid rgba(0, 255, 128, 0.623);
+    outline: 3px solid #00ff8036;
+    color: #000b14;
+    background-color: springgreen;
+    width: 70%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+aside .values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: crimson;
+}
+
+aside .ans,
+aside .equation {
+    padding: .2rem 1rem;
+    border-radius: 5px;
+    background: rgba(112, 128, 144, 0.151);
+}
+
+.aside {
+    width: 100%;
+    margin-left: 5px;
+
+}
+
+.aside .answers {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+    gap: .5px;
+}
+
+.aside .answers p {
+  
+    padding: 1rem;
+    border: .5px solid rgba(0, 255, 128, 0.623);
+    color: springgreen;
+    /* background-color: springgreen; */
+    transition: all .4s ease;
+}
+
+.aside .answers p:hover {
+    /* outline: 3px solid #00ff8015; */
+    background-color: #00ff8025;
+    transform: scale(1.1);
+}
