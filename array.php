@@ -77,5 +77,7 @@ echo "$r<br />";
 setcookie("cookie", "Enos Muthiani", time()+3600);
 
 echo $_COOKIE["cookie"];
+print($_COOKIE["cookie"]); 
+
 
 ?>
